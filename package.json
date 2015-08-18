@@ -1,6 +1,6 @@
 {
   "name": "digit-sum",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Calculate the digit sum of a number.",
   "license": "MIT",
   "repository": "gillstrom/digit-sum",
