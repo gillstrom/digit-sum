@@ -1,0 +1,43 @@
+{
+  "name": "digit-sum",
+  "version": "0.0.0",
+  "description": "Calculate the digit sum of a number.",
+  "license": "MIT",
+  "repository": "gillstrom/digit-sum",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "xo": {
+    "envs": [
+      "mocha"
+    ]
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "digit",
+    "integer",
+    "math",
+    "number",
+    "sum"
+  ],
+  "dependencies": {
+    "is-positive": "^3.0.0",
+    "math-sum": "^1.0.0",
+    "num-arr": "^1.0.1",
+    "number-is-integer": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "xo": "*"
+  }
+}
