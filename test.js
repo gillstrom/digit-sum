@@ -1,10 +1,10 @@
-'use strict';
-var assert = require('assert');
-var digitSum = require('./');
+import test from 'ava';
+import digitSum from './';
 
-it('Should work', function () {
-	assert.strictEqual(digitSum(84001), 13);
-	assert.strictEqual(digitSum(12345), 15);
-	assert.strictEqual(digitSum(99), 18);
-	assert.strictEqual(digitSum(5), 5);
+test('Should work', t => {
+	t.is(digitSum(84001), 13);
+	t.is(digitSum(12345), 15);
+	t.is(digitSum(99), 18);
+	t.is(digitSum(5), 5);
+	t.end();
 });
